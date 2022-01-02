@@ -57,7 +57,7 @@ fun_badvpn() {
                     sleep 0.1
                 } || {
                     cd $HOME
-                    wget https://raw.githubusercontent.com/nexyssh/badvpn-udpgw/main/badvpn-udpgw -o /dev/null
+                    wget https://raw.githubusercontent.com/dragovsk/badvpn-udpgw/main/badvpn-udpgw -o /dev/null
                     mv -f $HOME/badvpn-udpgw /bin/badvpn-udpgw
                     chmod 777 /bin/badvpn-udpgw
                 }

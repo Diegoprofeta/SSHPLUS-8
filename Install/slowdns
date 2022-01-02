@@ -25,7 +25,7 @@ echo -e "${RED}$banner${SCOLOR}"
     echo -e "\n${GREEN}BAIXANDO O SCRIPT POR FAVOR AGUARDE ! ${SCOLOR}"
     pkg upgrade > /dev/null 2>&1
     pkg install wget -y > /dev/null 2>&1
-    wget https://github.com/nexyssh/SSHPLUS/raw/main/Install/dns > /dev/null 2>&1
+    wget https://github.com/dragovsk/SSHPLUS/raw/main/Install/dns > /dev/null 2>&1
     echo -e "\n${RED}[${YELLOW}!${RED}] ${YELLOW}SCRIPT BAIXADO ! DA PROXIMA VEZ\nEXECULTE APENAS O COMANDO ${RED}(${GREEN}slowdns${RED})\n${YELLOW}MESMO QUE VOCÃŠ ESTEJA OFFLINE !${SCOLOR}"
     chmod +x dns
 }
